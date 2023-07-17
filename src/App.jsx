@@ -1,9 +1,10 @@
 import "./App.css";
+import Titulo from "./components/Titulo";
 
 function App() {
   return (
     <>
-      <h1>nuevo proyecto</h1>
+      <Titulo mensaje="my friend!" />
     </>
   );
 }
